@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function(){
       
       // Update social media meta tags dynamically
       function updateSocialMetaTags(){
-        const eventUrl = `https://pulsetickets.com/event.html?id=${ev.id}`;
+        const eventUrl = `https://ticketing-booking-jet.vercel.app/event.html?id=${ev.id}`;
         const eventImage = ev.image || 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80';
         const eventDescription = ev.description || `Book tickets for ${ev.title} on Pulse Tickets`;
         
