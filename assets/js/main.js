@@ -152,6 +152,38 @@ document.addEventListener('DOMContentLoaded', function(){
       // Populate title
       document.getElementById('eventTitle').textContent = ev.title;
       
+      // Update page title for SEO
+      document.title = `${ev.title} — Pulse Tickets`;
+      
+      // Update social media meta tags dynamically
+      function updateSocialMetaTags(){
+        const eventUrl = `https://pulsetickets.com/event.html?id=${ev.id}`;
+        const eventImage = ev.image || 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80';
+        const eventDescription = ev.description || `Book tickets for ${ev.title} on Pulse Tickets`;
+        
+        // Update Open Graph tags
+        document.getElementById('og-url').setAttribute('content', eventUrl);
+        document.getElementById('og-title').setAttribute('content', ev.title);
+        document.getElementById('og-description').setAttribute('content', eventDescription);
+        document.getElementById('og-image').setAttribute('content', eventImage);
+        
+        // Update Twitter Card tags
+        document.getElementById('twitter-url').setAttribute('content', eventUrl);
+        document.getElementById('twitter-title').setAttribute('content', ev.title);
+        document.getElementById('twitter-description').setAttribute('content', eventDescription);
+        document.getElementById('twitter-image').setAttribute('content', eventImage);
+        
+        // Update LinkedIn tags
+        document.getElementById('linkedin-url').setAttribute('content', eventUrl);
+        document.getElementById('linkedin-title').setAttribute('content', ev.title);
+        document.getElementById('linkedin-image').setAttribute('content', eventImage);
+        
+        // Update canonical URL
+        document.getElementById('canonical-url').setAttribute('href', eventUrl);
+      }
+      
+      updateSocialMetaTags();
+      
       // Format date/time
       const d = new Date(ev.date);
       const dateStr = d.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
