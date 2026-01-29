@@ -1,0 +1,392 @@
+{
+  "events": [
+    {
+      "id": "neon",
+      "title": "Neon Nights — Live",
+      "date": "2026-02-28T19:00:00",
+      "venue": "Downtown Arena",
+      "price": 45,
+      "tags": ["Music"],
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=80",
+      "description": "Experience an electrifying night with top DJs and immersive visuals. Food trucks and bars on site.",
+      "address": "123 Arena Way, Downtown",
+      "schedule": [
+        {"time":"19:00","act":"Doors open"},
+        {"time":"20:00","act":"DJ Nova"},
+        {"time":"22:00","act":"Headline set"}
+      ],
+      "hotels": [
+        {"name":"Hotel Aurora","price":120},
+        {"name":"City Lodge","price":90}
+      ],
+      "flights": [
+        {"route":"NYC ↔ City","price":"$320"},
+        {"route":"LAX ↔ City","price":"$410"}
+      ]
+    },
+    {
+      "id": "summerwave",
+      "title": "Summerwave Festival",
+      "date": "2026-06-13T12:00:00",
+      "venue": "Beach Park",
+      "price": 120,
+      "tags": ["Festival"],
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80",
+      "description": "A coastal festival with multiple stages, food, and camping options.",
+      "address": "Beach Park, Shoreline Rd",
+      "schedule": [
+        {"time":"12:00","act":"Gates open"},
+        {"time":"14:00","act":"Indie Stage"},
+        {"time":"19:00","act":"Main Stage"}
+      ],
+      "hotels": [
+        {"name":"Shoreline Inn","price":140}
+      ],
+      "flights": []
+    },
+    {
+      "id": "moon",
+      "title": "Moonlight — Nigerian Playhouse Theatre",
+      "date": "2026-03-04T19:30:00",
+      "venue": "National Arts Theatre Lagos",
+      "price": "₦45,000",
+      "tags": ["Theatre","Nigerian"],
+      "image": "https://images.unsplash.com/photo-1504805572947-34b7a5c20766?auto=format&fit=crop&w=1400&q=80",
+      "description": "A dramatic Nigerian theatre production blending contemporary storytelling with traditional music and dance movements. Experience authentic African performing arts.",
+      "address": "National Arts Theatre, Lekki, Lagos",
+      "schedule": [
+        {"time":"19:30","act":"Act I"},
+        {"time":"20:30","act":"Intermission"},
+        {"time":"20:45","act":"Act II"}
+      ],
+      "hotels": [
+        {"name":"Radisson Blu Lagos","price":"₦270,000"},
+        {"name":"Lekki Palace Hotel","price":"₦225,000"},
+        {"name":"Four Points Lekki","price":"₦247,500"}
+      ],
+      "flights": [
+        {"route":"Lagos (LOS) ↔ International","price":"₦420,000"},
+        {"route":"Abuja (ABV) ↔ Lagos","price":"₦180,000"},
+        {"route":"Port Harcourt (PHC) ↔ Lagos","price":"₦142,500"}
+      ]
+    },
+    {
+      "id": "devfest",
+      "title": "DevFest 2026 — Conference",
+      "date": "2026-04-22T09:00:00",
+      "venue": "Tech Park",
+      "price": 0,
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1400&q=80",
+      "tags": ["Tech"],
+      "address": "Tech Park, Innovation Way",
+      "schedule": [
+        {"time":"09:00","act":"Registration"},
+        {"time":"10:00","act":"Keynote"},
+        {"time":"13:00","act":"Workshops"}
+      ],
+      "description": "A full-day developer conference covering web, cloud, and AI. Hands-on labs and community meetups.",
+      "hotels": [
+        {"name":"Conference Suites","price":150}
+      ],
+      "flights": []
+    }
+    ,
+    {
+      "id": "skyline",
+      "title": "Skyline Jazz Evening",
+      "date": "2026-05-09T19:30:00",
+      "venue": "Rooftop Terrace",
+      "price": 55,
+      "tags": ["Music","Jazz"],
+      "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1400&q=80",
+      "description": "An intimate evening of contemporary jazz with city skyline views.",
+      "address": "Rooftop Terrace, 45 High St",
+      "schedule": [{"time":"19:30","act":"Doors"},{"time":"20:00","act":"Opening set"},{"time":"21:30","act":"Headliner"}],
+      "hotels": [{"name":"Skyline Suites","price":160}],
+      "flights": []
+    },
+    {
+      "id": "riverside",
+      "title": "Riverside Marathon Expo",
+      "date": "2026-09-12T08:00:00",
+      "venue": "Riverside Park",
+      "price": 25,
+      "tags": ["Sports"],
+      "image": "https://images.unsplash.com/photo-1508606572321-901ea443707f?auto=format&fit=crop&w=1400&q=80",
+      "description": "Expo and community runs for all ages — join training sessions and gear demos.",
+      "address": "Riverside Park, Loop Rd",
+      "schedule": [{"time":"08:00","act":"Expo opens"},{"time":"09:00","act":"5K run"},{"time":"10:30","act":"Kids dash"}],
+      "hotels": [{"name":"Parkside Hotel","price":110}],
+      "flights": []
+    },
+    {
+      "id": "indie",
+      "title": "Indie Night: New Artists",
+      "date": "2026-07-17T18:00:00",
+      "venue": "Warehouse Stage",
+      "price": 18,
+      "tags": ["Music","Indie"],
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=1400&q=80",
+      "description": "Discover emerging indie artists on multiple intimate stages.",
+      "address": "Warehouse Stage, Dockside Ave",
+      "schedule": [{"time":"18:00","act":"Doors"},{"time":"19:00","act":"Lineup A"},{"time":"21:00","act":"Headliner"}],
+      "hotels": [],
+      "flights": []
+    }
+    ,
+    {
+      "id": "afrofest",
+      "title": "AfroFest Lagos — Afrobeats Night",
+      "date": "2026-08-21T19:00:00",
+      "venue": "Eko Arena, Lagos",
+      "price": 65,
+      "tags": ["Music","Afrobeats"],
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1400&q=80",
+      "description": "A celebration of Afrobeats and Nigerian sound — big headliners, street food, and a Lagos vibe.",
+      "address": "Eko Arena, Lagos Island",
+      "schedule": [{"time":"18:30","act":"Gates open"},{"time":"19:30","act":"Rising acts"},{"time":"21:00","act":"Headliners"}],
+      "hotels": [{"name":"Lagos Grand","price":180}],
+      "flights": []
+    },
+    {
+      "id": "naija-night",
+      "title": "Naija Nights — Highlife & Afropop",
+      "date": "2026-09-10T20:00:00",
+      "venue": "Victoria Hall",
+      "price": "₦60,000",
+      "tags": ["Music","Nigerian"],
+      "image": "https://images.unsplash.com/photo-1487180144351-b8472da7d491?auto=format&fit=crop&w=1400&q=80",
+      "description": "An evening that blends highlife, afropop and local rhythms — tastes of Nigeria on-site.",
+      "address": "Victoria Hall, Central",
+      "schedule": [{"time":"20:00","act":"Opening"},{"time":"21:30","act":"Main acts"}],
+      "hotels": [],
+      "flights": []
+    },
+    {
+      "id": "stadium-football",
+      "title": "City Derby — Football Match",
+      "date": "2026-10-03T16:00:00",
+      "venue": "National Stadium",
+      "price": 30,
+      "tags": ["Sports","Football"],
+      "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1400&q=80",
+      "description": "The season's top derby — electric crowd and halftime entertainment.",
+      "address": "National Stadium, Main Rd",
+      "schedule": [{"time":"15:00","act":"Gates open"},{"time":"16:00","act":"Kickoff"}],
+      "hotels": [{"name":"Stadium Hotel","price":140}],
+      "flights": []
+    },
+    {
+      "id": "rockfest",
+      "title": "RockFest — International Lineup",
+      "date": "2026-11-12T17:00:00",
+      "venue": "Open Field Grounds",
+      "price": 85,
+      "tags": ["Music","Rock"],
+      "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1400&q=80",
+      "description": "International and local rock acts across three stages — camping options available.",
+      "address": "Open Field Grounds",
+      "schedule": [{"time":"17:00","act":"Gates"},{"time":"18:00","act":"Local acts"},{"time":"20:00","act":"Headliners"}],
+      "hotels": [],
+      "flights": []
+    },
+    {
+      "id": "gospel-night",
+      "title": "Gospel Night Live",
+      "date": "2026-12-05T18:00:00",
+      "venue": "City Cathedral",
+      "price": 20,
+      "tags": ["Music","Gospel"],
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1400&q=80",
+      "description": "A soulful night of gospel with choirs and special guests.",
+      "address": "City Cathedral, Church St",
+      "schedule": [{"time":"18:00","act":"Choir"},{"time":"19:30","act":"Guest speaker"}],
+      "hotels": [],
+      "flights": []
+    },
+    {
+      "id": "comedy-night",
+      "title": "Nigerian Comedy Night — Stand-Up Extravaganza",
+      "date": "2026-01-30T20:00:00",
+      "venue": "The Laughter Lounge Lagos",
+      "price": "₦52,500",
+      "tags": ["Entertainment","Nigerian"],
+      "image": "https://images.unsplash.com/photo-1533136481677-cf52f7c8f625?auto=format&fit=crop&w=1400&q=80",
+      "description": "Stand-up comedy with Nigeria's top comedians and international guests — laugh until your sides hurt. Experience authentic naija humor and wit.",
+      "address": "The Laughter Lounge, Ikoyi, Lagos",
+      "schedule": [{"time":"19:00","act":"Doors open"},{"time":"20:00","act":"Opening act"},{"time":"21:15","act":"Headliner"}],
+      "hotels": [
+        {"name":"Ikoyi Luxe Hotel","price":"₦210,000"},
+        {"name":"Lagos Island Suite","price":"₦232,500"},
+        {"name":"Victoria Palace Hotel","price":"₦202,500"}
+      ],
+      "flights": [
+        {"route":"Lagos (LOS) ↔ International","price":"₦420,000"},
+        {"route":"Abuja (ABV) ↔ Lagos","price":"₦180,000"},
+        {"route":"Port Harcourt (PHC) ↔ Lagos","price":"₦142,500"}
+      ]
+    },
+    {
+      "id": "ballet-night",
+      "title": "Atilogwu Dance Festival — Nigerian Cultural Dance",
+      "date": "2026-02-14T19:00:00",
+      "venue": "National Theatre",
+      "price": "₦112,500",
+      "tags": ["Theatre","Nigerian"],
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1400&q=80",
+      "description": "Experience authentic Nigerian traditional dance with vibrant costumes, drums, and cultural performances celebrating Igbo heritage.",
+      "address": "National Theatre, Arts District",
+      "schedule": [{"time":"19:00","act":"Act I - Opening Ceremonies"},{"time":"20:00","act":"Intermission"},{"time":"20:20","act":"Act II & III - Main Performances"}],
+      "hotels": [{"name":"Grand Plaza Hotel","price":"₦240,000"}],
+      "flights": []
+    },
+    {
+      "id": "tech-conference",
+      "title": "AI Summit 2026 — Future Tech",
+      "date": "2026-03-15T08:30:00",
+      "venue": "Convention Center",
+      "price": 150,
+      "tags": ["Tech"],
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",
+      "description": "Leading minds discussing AI, machine learning, and the future of technology.",
+      "address": "Convention Center, Tech Park",
+      "schedule": [{"time":"08:30","act":"Registration"},{"time":"10:00","act":"Opening keynote"},{"time":"12:00","act":"Workshop sessions"},{"time":"15:00","act":"Panel discussions"}],
+      "hotels": [{"name":"Tech Executive Hotel","price":180}],
+      "flights": [{"route":"NYC ↔ City","price":"$350"},{"route":"LAX ↔ City","price":"$420"}]
+    },
+    {
+      "id": "marathon-2026",
+      "title": "City Marathon 2026",
+      "date": "2026-04-05T07:00:00",
+      "venue": "City Center Starting Point",
+      "price": 50,
+      "tags": ["Sports"],
+      "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1400&q=80",
+      "description": "Join thousands in a 42km race through the heart of the city — run, walk, or cheer!",
+      "address": "City Center, Main Road",
+      "schedule": [{"time":"06:00","act":"Registration"},{"time":"07:00","act":"Half-marathon starts"},{"time":"07:30","act":"Full marathon starts"}],
+      "hotels": [{"name":"Runner's Rest Hotel","price":110}],
+      "flights": []
+    },
+    {
+      "id": "folk-festival",
+      "title": "Roots & Rhythms — Folk Festival",
+      "date": "2026-05-22T12:00:00",
+      "venue": "National Park Amphitheater",
+      "price": 60,
+      "tags": ["Music","Festival"],
+      "image": "https://images.unsplash.com/photo-1533007289400-ac0d86ded816?auto=format&fit=crop&w=1400&q=80",
+      "description": "Traditional and contemporary folk music from around the world — all day experience.",
+      "address": "National Park, Green Valley",
+      "schedule": [{"time":"12:00","act":"Gates open"},{"time":"13:00","act":"Opening performances"},{"time":"17:00","act":"Headline acts"}],
+      "hotels": [],
+      "flights": []
+    },
+    {
+      "id": "pop-concert",
+      "title": "Starlight Pop — Mega Concert",
+      "date": "2026-06-08T19:30:00",
+      "venue": "Stadium Grounds",
+      "price": 95,
+      "tags": ["Music"],
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=80",
+      "description": "International pop superstars performing live — tickets are in high demand!",
+      "address": "Stadium Grounds, Mile End",
+      "schedule": [{"time":"18:00","act":"Gates open"},{"time":"19:30","act":"Opening acts"},{"time":"21:00","act":"Headliners"}],
+      "hotels": [{"name":"Star Hotel","price":200}],
+      "flights": [{"route":"NYC ↔ City","price":"$320"},{"route":"LAX ↔ City","price":"$410"}]
+    },
+    {
+      "id": "craft-festival",
+      "title": "Maker's Market — Craft Festival",
+      "date": "2026-07-12T10:00:00",
+      "venue": "Heritage Market Square",
+      "price": 15,
+      "tags": ["Festival"],
+      "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1400&q=80",
+      "description": "Handmade crafts, artisan goods, and workshops from talented makers globally.",
+      "address": "Heritage Market Square, Old Town",
+      "schedule": [{"time":"10:00","act":"Market opens"},{"time":"12:00","act":"Craft workshops"},{"time":"15:00","act":"Live demonstrations"}],
+      "hotels": [],
+      "flights": []
+    },
+    {
+      "id": "boxing-championship",
+      "title": "Championship Boxing Night",
+      "date": "2026-08-10T20:00:00",
+      "venue": "Sports Arena",
+      "price": 80,
+      "tags": ["Sports"],
+      "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1400&q=80",
+      "description": "Elite boxers competing for the championship title — action-packed evening.",
+      "address": "Sports Arena, Boxing District",
+      "schedule": [{"time":"19:00","act":"Doors open"},{"time":"20:00","act":"Preliminary bouts"},{"time":"22:00","act":"Championship match"}],
+      "hotels": [{"name":"Arena Stay Hotel","price":145}],
+      "flights": []
+    },
+    {
+      "id": "indie-film-fest",
+      "title": "Nollywood Independent Film Festival",
+      "date": "2026-09-05T17:00:00",
+      "venue": "Emerge Arts and Culture Centre",
+      "price": "₦67,500",
+      "tags": ["Entertainment","Nigerian"],
+      "image": "https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?auto=format&fit=crop&w=1400&q=80",
+      "description": "Curated selection of indie films, Nigerian documentaries, and Q&A sessions with Nollywood filmmakers. Celebrate African cinema and storytelling.",
+      "address": "Emerge Centre, Victoria Island, Lagos",
+      "schedule": [{"time":"17:00","act":"Film starts"},{"time":"19:00","act":"Q&A with director"},{"time":"20:00","act":"Evening screenings"}],
+      "hotels": [
+        {"name":"Ensign Continental Hotel","price":"₦255,000"},
+        {"name":"Wheatbaker Hotel Lagos","price":"₦277,500"},
+        {"name":"Lagos Continental Hotel","price":"₦240,000"}
+      ],
+      "flights": [
+        {"route":"Lagos (LOS) ↔ International","price":"₦420,000"},
+        {"route":"Abuja (ABV) ↔ Lagos","price":"₦180,000"},
+        {"route":"Accra (ACC) ↔ Lagos","price":"₦210,000"}
+      ]
+    },
+    {
+      "id": "electronic-music",
+      "title": "Beats & Synths — Electronic Music",
+      "date": "2026-10-10T22:00:00",
+      "venue": "Electric Club",
+      "price": 40,
+      "tags": ["Music"],
+      "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1400&q=80",
+      "description": "World-renowned electronic and techno DJs spinning until dawn.",
+      "address": "Electric Club, Entertainment District",
+      "schedule": [{"time":"22:00","act":"Doors open"},{"time":"23:00","act":"Opening DJ"},{"time":"02:00","act":"Headline performer"}],
+      "hotels": [],
+      "flights": []
+    },
+    {
+      "id": "food-festival",
+      "title": "Nigerian Flavors Festival — Taste of Naija",
+      "date": "2026-11-08T11:00:00",
+      "venue": "Culinary Park",
+      "price": "₦37,500",
+      "tags": ["Festival","Nigerian"],
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1400&q=80",
+      "description": "Celebrate authentic Nigerian cuisine with jollof rice, suya, pepper soups, and traditional dishes. Live cooking demonstrations and chef meet-and-greets.",
+      "address": "Culinary Park, Foodie Lane",
+      "schedule": [{"time":"11:00","act":"Festival opens"},{"time":"13:00","act":"Live cooking"},{"time":"16:00","act":"Chef talks"}],
+      "hotels": [],
+      "flights": []
+    },
+    {
+      "id": "winter-wonderland",
+      "title": "Winter Wonderland Festival",
+      "date": "2026-12-15T17:00:00",
+      "venue": "Central Park Plaza",
+      "price": 10,
+      "tags": ["Festival"],
+      "image": "https://images.unsplash.com/photo-1514886095703-b21d24ddf6b7?auto=format&fit=crop&w=1400&q=80",
+      "description": "Holiday celebration with ice skating, festive lights, and seasonal entertainment.",
+      "address": "Central Park Plaza, Downtown",
+      "schedule": [{"time":"17:00","act":"Park opens"},{"time":"18:00","act":"Light show"},{"time":"19:00","act":"Ice skating"}],
+      "hotels": [],
+      "flights": []
+    }
+  ]
+}

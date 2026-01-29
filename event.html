@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Event — Neon Nights</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="assets/css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="nav-wrap">
+      <nav class="container-max navbar">
+        <a class="brand" href="index.html">Pulse<span>Tickets</span></a>
+        
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="events.html">Categories</a>
+          <a href="#about">About</a>
+        </div>
+                <button class="nav-menu-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+                <div class="nav-actions">
+          <button class="btn-theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+            <i id="themeIcon" class="fas fa-moon"></i>
+          </button>
+          <a href="login.html" class="btn btn-ghost">Sign in</a>
+        </div>
+      </nav>
+    </header>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero with event image and dark overlay -->
+      <section id="detailHero" class="detail-hero-large" style="background-image: url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=80'); background-size: cover; background-position: center;">
+        <div class="hero-overlay"></div>
+        <div class="container-max hero-content">
+          <div class="hero-title-block">
+            <h1 id="eventTitle" class="hero-event-title">Loading…</h1>
+            <div class="hero-meta" id="eventMeta">
+              <span class="meta-item"><i class="far fa-calendar"></i> Loading date</span>
+              <span class="meta-item"><i class="far fa-clock"></i> Loading time</span>
+              <span class="meta-item"><i class="fas fa-map-marker-alt"></i> Loading venue</span>
+              <span class="meta-item"><i class="fas fa-music"></i> Loading category</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main content with two columns -->
+      <div class="container-max event-main">
+        <div class="event-grid">
+          <!-- Left column: About & Details -->
+          <div class="event-left">
+            <section id="aboutSection" class="about-section reveal">
+              <h2>About This Event</h2>
+              <p id="eventDescription">Loading event details…</p>
+              
+              <h3 class="mt-4">What to Expect</h3>
+              <ul id="scheduleList" class="expect-list">
+                <li>Loading schedule…</li>
+              </ul>
+            </section>
+
+            <section id="venueSection" class="venue-section reveal">
+              <h2>Venue Information</h2>
+              <div class="venue-info">
+                <p><strong>Location:</strong> <span id="address">Loading…</span></p>
+                <p><strong>Time:</strong> <span id="venueName">Loading…</span> — Please arrive 30 minutes early</p>
+                <p><strong>Accessibility:</strong> <span id="accessibility">Wheelchair accessible venue with assistance available</span></p>
+              </div>
+            </section>
+
+            <section id="importantSection" class="important-section reveal">
+              <h2>Important Information</h2>
+              <div id="faqList">
+                <details class="faq-item">
+                  <summary>What time do doors open?</summary>
+                  <p class="muted">Doors typically open 1 hour before showtime.</p>
+                </details>
+                <details class="faq-item">
+                  <summary>Are refunds available?</summary>
+                  <p class="muted">Refund policy varies by event — check the event terms.</p>
+                </details>
+                <details class="faq-item">
+                  <summary>What items are prohibited?</summary>
+                  <p class="muted">Large bags, outside food/beverages, and professional cameras are not permitted.</p>
+                </details>
+              </div>
+            </section>
+
+            <section id="travelSection" class="travel-section reveal">
+              <h2>Travel & Stay</h2>
+              <div class="travel-grid">
+                <div class="travel-card">
+                  <h5>🏨 Nearby Hotels</h5>
+                  <div id="hotelsList">Loading…</div>
+                </div>
+                <div class="travel-card">
+                  <h5><i class="fas fa-plane"></i> Flights</h5>
+                  <div id="flightsList">Loading…</div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!-- Right column: Booking Box -->
+          <aside class="event-right">
+            <div class="booking-box-premium sticky-box">
+              <div class="price-section">
+                <span class="price-label">Starting from</span>
+                <div class="price-display" id="ticketPrice">$0</div>
+                <span class="price-unit">per ticket</span>
+              </div>
+
+              <div class="quantity-section">
+                <label>Select Quantity</label>
+                <div class="quantity-control">
+                  <button id="qtyMinus" class="qty-btn">−</button>
+                  <input id="qty" type="number" class="qty-input" value="1" min="1" max="10" />
+                  <button id="qtyPlus" class="qty-btn">+</button>
+                </div>
+              </div>
+
+              <div class="price-breakdown">
+                <div class="breakdown-row">
+                  <span>Subtotal:</span>
+                  <span id="subtotal" class="breakdown-value">$0</span>
+                </div>
+                <div class="breakdown-row">
+                  <span>Service Fee:</span>
+                  <span id="serviceFee" class="breakdown-value">$0</span>
+                </div>
+                <div class="breakdown-row total-row">
+                  <span>Total:</span>
+                  <span id="totalPrice" class="breakdown-total">$0</span>
+                </div>
+              </div>
+
+              <button id="bookNow" class="btn btn-accent w-100 mt-4">Book Tickets</button>
+              <p class="secure-text"><i class="fas fa-lock"></i> Secure checkout. Mobile tickets delivered instantly.</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container-max">
+        <div class="footer-top">
+          <div class="footer-section brand-section">
+            <h3 class="brand">Pulse<span>Tickets</span></h3>
+            <p class="footer-desc">Your premier destination for booking unforgettable events and experiences.</p>
+            <div class="social-icons">
+              <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="events.html">Browse Events</a></li>
+              <li><a href="events.html">Categories</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Support</h4>
+            <ul class="footer-links">
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Refund Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section newsletter-section">
+            <h4>Newsletter</h4>
+            <p>Subscribe to get updates on new events</p>
+            <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thanks for subscribing!')">
+              <input type="email" placeholder="Your email" required class="newsletter-input">
+              <button type="submit" class="btn-subscribe">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 pulseTikets. All rights reserved. built by the exclusive team</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@motionone/dom/dist/motion.dev.umd.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
